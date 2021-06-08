@@ -1,0 +1,4 @@
+echo 1 > helm/trigger_build
+git add .
+git commit -m "chore: trigger build"
+git push
